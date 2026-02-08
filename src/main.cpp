@@ -6,7 +6,7 @@ using namespace std;
 void menuCategorie () {
      int sceltaCat = 0;
      
-     // Il sottomenu resta attivo finché l'utente non sceglie "Torna al Menu Principale"
+     // Il sottomenu resta attivo finchÃ© l'utente non sceglie "Torna al Menu Principale"
      while (sceltaCat != 4) {
      cout << "--- Gestione Categorie ---\n";     
      cout << "1. Inserisci Categoria\n";
@@ -51,7 +51,7 @@ void menuCategorie () {
 void menuSpesa () {
      int sceltaSpesa = 0;
      
-     // Il sottomenu resta attivo finché l'utente non torna al menu principale
+     // Il sottomenu resta attivo finchÃ© l'utente non torna al menu principale
      while (sceltaSpesa != 4) {
            cout << "--- Inserimento Spesa ---\n";     
            cout << "1. Inserisci Spesa\n";
@@ -112,7 +112,7 @@ void menuSpesa () {
 void menuBudget() {
      int sceltaBudget = 0;
      
-     // Il sottomenu resta attivo finché l'utente non torna al menu principale
+     // Il sottomenu resta attivo finchÃ© l'utente non torna al menu principale
      while (sceltaBudget != 4) {
            cout << "--- Budget Mensile ---\n";     
            cout << "1. Imposta Budget\n";
@@ -168,7 +168,7 @@ void menuBudget() {
 void menuReport () {
      int sceltaReport = 0;
      
-     // Il sottomenu resta attivo finché l'utente non torna al menu principale
+     // Il sottomenu resta attivo finchÃ© l'utente non torna al menu principale
      while (sceltaReport != 4) {
            cout << "--- Report delle Spese ---\n";     
            cout << "1. Totale spese per categoria\n";
@@ -206,7 +206,7 @@ void menuReport () {
 int main () {
     int scelta = 0;
     
-    // Il menu principale resta attivo finché l'utente non sceglie "Esci"
+    // Il menu principale resta attivo finchÃ© l'utente non sceglie "Esci"
     while (scelta != 5) {
           cout << "1. Gestione Categorie\n";
           cout << "2. Inserisci Spesa\n";
