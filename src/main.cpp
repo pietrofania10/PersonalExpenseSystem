@@ -206,6 +206,11 @@ void menuReport () {
 int main () {
     int scelta = 0;
     
+    cout << "BENVENUTO\n";
+    cout << "\n";
+    cout << "-------------------------\n";
+    cout << "SISTEMA SPESE PERSONALI\n";
+    cout << "-------------------------\n";
     // Il menu principale resta attivo finché l'utente non sceglie "Esci"
     while (scelta != 5) {
           cout << "1. Gestione Categorie\n";
@@ -213,6 +218,8 @@ int main () {
           cout << "3. Definisci Budget Mensile\n";
           cout << "4. Visualizza Report\n";
           cout << "5. Esci\n";
+          cout << "-------------------------\n";
+          cout << "Inserisci la tua scelta:\n";
           
           cin >> scelta;
           
@@ -245,3 +252,4 @@ int main () {
                } 
                  
      
+
